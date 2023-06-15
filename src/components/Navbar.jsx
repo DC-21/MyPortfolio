@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import logo from '../images/logo.jpg'
+import logo from '../images/logo.png'
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -7,9 +7,9 @@ const Navbar = () => {
     setOpen(!open)
   }
   return (
-    <div className='flex w-full px-4 md:px-8 py-4 items-center justify-between'>
+    <div className='flex w-full px-4 md:px-8 py-4 items-center justify-between' style={{background: '#cccfb2'}}>
       <div className='flex gap-1 items-center'>
-        <img src={logo} alt='Logo' className='h-[28px] w-[64px]' />
+        <img src={logo} alt='Logo' className='h-[28px] w-[64px]' style={{background: '#cccfb2'}}/>
       </div>
       <ul className='md:flex hidden gap-6'>
         <li>
