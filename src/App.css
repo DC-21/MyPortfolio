@@ -20,7 +20,7 @@
     }
     
     .button:hover {
-      background-color: rgb(169, 187, 245);
+      background-color: #d6d8c4;
       transition-duration: .5s;
     }
     
@@ -30,9 +30,11 @@
     }
     
     .button:hover .svgIcon {
+      fill: white;
       transform: rotate(250deg);
       transition-duration: 1.5s;
     }
+    
     
     
     font-weight: 600;
@@ -55,7 +57,7 @@
   }
   
   .button:hover {
-    background-color: rgb(169, 187, 245);
+    background-color: black;
     transition-duration: .5s;
   }
   
@@ -66,10 +68,10 @@
   
   .button:hover .svgIcon {
     transform: rotate(250deg);
-    transition-duration: 1.5s;
+    transition-duration: 0.5s;
   }
   
   *{
-    font-family: 'Chewy', cursive;
-    letter-spacing: 1.3px;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 0.6px;
   }
