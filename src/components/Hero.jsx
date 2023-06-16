@@ -53,6 +53,9 @@ const Hero = () => {
                 </svg>
               </a>
             </li>
+            <button>
+              Hire Me
+            </button>
           </div>
         </div>
         <div></div>
