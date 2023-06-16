@@ -1,23 +1,13 @@
 import React from 'react';
-import Slide from './Slide';
+import Ai from '../images/aiweb.png'
 
 const Portfolio = () => {
     return (
         <section className="text-gray-600 body-font overflow-hidden px-4 py-4">
             <div className="container px-5 items-center justify-center mx-auto mt-14 py-10">
-                <div className="flex flex-wrap w-full bg-black">
-                    <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0 h-[80vh]">
-                        <article class="card">
-                            <div class="temporary_text">
-                                Place image here
-                            </div>
-                            <div class="card_content">
-                                <span class="card_title">Ai Web</span>
-                                <span class="card_subtitle">Unleashing the power of AI.</span>
-                                <p class="card_description">Unleashing the power of AI revolutionizes industries, propelling innovation, automation, and transformative advancements. By tapping into its potential, we unlock a world of possibilities, shaping the future with intelligent technologies and redefining the way we live and work.</p>
-
-                            </div>
-                        </article>
+                <div className="flex flex-wrap w-full">
+                    <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0 h-[70vh]">
+                        <img className='rounded' src={Ai} />
                     </div>
                     <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
                         <h2 className="text-sm title-font text-gray-500 tracking-widest">Projects</h2>
