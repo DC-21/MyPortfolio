@@ -3,7 +3,7 @@ import React from 'react'
 const Services = () => {
     return (
         <section class="w-full text-gray-600 body-font bg-slate-500">
-            <div class="w-full container px-5 py-14 mx-auto">
+            <div class="w-full container px-5 py-20 mx-auto">
                 <div class="text-center mb-10">
                     <h1 class="sm:text-3xl text-2xl font-bold text-center text-white mb-4 underline">My Services</h1>
                     <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-slate-300">I offer two web services listed below</p>
