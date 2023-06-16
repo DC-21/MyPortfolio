@@ -23,7 +23,7 @@ const Hero = () => {
             <h1 className='pt-3 text-slate-300 font-medium'>You have come to the right place where your dreams are Redesigned and brought to Life for you.</h1>
             <li className='list-none flex justify-center md:justify-start w-full gap-6 mt-6 duration-500'>
               {/*gmail*/}
-              <a href='mailto:cholahkuboko@gmail.com'>  <svg
+              <a href='https://mailto:cholahkuboko@gmail.com'>  <svg
                 viewBox="0 0 24 24"
                 fill="white"
                 height="2em"
