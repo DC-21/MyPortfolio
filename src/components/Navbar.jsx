@@ -7,9 +7,9 @@ const Navbar = () => {
     setOpen(!open)
   }
   return (
-    <div className='flex w-full px-4 md:px-8 py-4 items-center justify-between transition-all bg-[#d6d8c4]'>
+    <div className='flex w-full px-4 md:px-8 py-4 items-center justify-between transition-all bg-white'>
       <div className='flex gap-1 items-center'>
-        <img src={logo} alt='Logo' className='h-[28px] w-[64px]' style={{ background: '#d6d8c4' }}/>
+        <img src={logo} alt='Logo' className='h-[28px] w-[64px]' />
       </div>
       <ul className='md:flex hidden gap-6'>
         <li className=' hover:border-b-[1px] border-black transition-all duration-300 px-2 py-1'>

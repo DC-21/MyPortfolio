@@ -14,18 +14,17 @@ const Hero = () => {
               'A Junior Web Developer', 2000,
               'A Web Penetration Tester', 2000
             ]}
-            className="text-2xl w-full font-bold text-left pt-0"
+            className="text-2xl w-full font-bold text-left pt-0 text-white"
             repeat={Infinity}
             wrapper="p"
-            style={{ color: 'linear-gradient(to right, #fafafa, #2d177d)' }}
           />
           <div className=''>
-            <h1 className='pt-4'>Looking for Web Developer to Hire ?</h1>
-            <h1 className='pt-3'>You have come to the right place where your dreams are Redesigned and brought to Life for you.</h1>
-            <li className='list-none flex w-full gap-6 pt-4'>
+            <h1 className='pt-4 text-white font-medium'>Looking for Web Developer to Hire ?</h1>
+            <h1 className='pt-3 text-white font-medium'>You have come to the right place where your dreams are Redesigned and brought to Life for you.</h1>
+            <li className='list-none flex w-full gap-6 mt-6 duration-500'>
               <a href=''>  <svg
                 viewBox="0 0 24 24"
-                fill="currentColor"
+                fill="white"
                 height="2em"
                 width="2em"
               >
@@ -34,7 +33,7 @@ const Hero = () => {
               <a href=''>
                 <svg
                   viewBox="0 0 448 512"
-                  fill="currentColor"
+                  fill="white"
                   height="2em"
                   width="2em"
                 >
@@ -44,7 +43,7 @@ const Hero = () => {
               <a href=''>
                 <svg
                   viewBox="0 0 24 24"
-                  fill="currentColor"
+                  fill="white"
                   height="2em"
                   width="2em"
                 >
@@ -53,7 +52,7 @@ const Hero = () => {
                 </svg>
               </a>
             </li>
-            <button className='bg-slate-600 py-2 px-2 rounded mt-6'>
+            <button className='bg-indigo-300 py-2 px-2 rounded mt-8 text-white font-medium hover:bg-indigo-400'>
               Give me a shot
             </button>
           </div>
