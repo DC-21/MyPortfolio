@@ -5,7 +5,7 @@ import { Player } from '@lottiefiles/react-lottie-player';
 
 const Hero = () => {
   return (
-    <div className='flex px-4 md:px-8  flex-wrap w-full h-screen pt-8'>
+    <div className='flex px-4 md:px-8  flex-wrap w-full h-[550px] pt-8 bg-slate-500'>
       <div className='md:w-1/2 w-full pt-10'>
         <div>
           <TypeAnimation
@@ -53,7 +53,7 @@ const Hero = () => {
                 </svg>
               </a>
             </li>
-            <button>
+            <button className='bg-slate-600 py-2 px-2 rounded mt-6'>
               Give me a shot
             </button>
           </div>
