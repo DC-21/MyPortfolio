@@ -15,7 +15,7 @@ const Services = () => {
                                 <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                                 <path d="M22 4L12 14.01l-3-3"></path>
                             </svg>
-                            <span class="title-font font-medium">Authentic Cliche Forage</span>
+                            <span class="title-font font-medium">Web Development</span>
                         </div>
                     </div>
                     <div class="p-2 sm:w-1/2 w-full">
@@ -24,7 +24,7 @@ const Services = () => {
                                 <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                                 <path d="M22 4L12 14.01l-3-3"></path>
                             </svg>
-                            <span class="title-font font-medium">Kinfolk Chips Snackwave</span>
+                            <span class="title-font font-medium">We Penetration Testing</span>
                         </div>
                     </div>
                     <div class="p-2 sm:w-1/2 w-full">
@@ -33,7 +33,7 @@ const Services = () => {
                                 <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                                 <path d="M22 4L12 14.01l-3-3"></path>
                             </svg>
-                            <span class="title-font font-medium">Coloring Book Ethical</span>
+                            <span class="title-font font-medium">Web Penetration Testing</span>
                         </div>
                     </div>
                     <div class="p-2 sm:w-1/2 w-full">
@@ -42,7 +42,7 @@ const Services = () => {
                                 <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                                 <path d="M22 4L12 14.01l-3-3"></path>
                             </svg>
-                            <span class="title-font font-medium">Typewriter Polaroid Cray</span>
+                            <span class="title-font font-medium">hello</span>
                         </div>
                     </div>
                     <div class="p-2 sm:w-1/2 w-full">
