@@ -3,7 +3,7 @@ import own from '../images/own.png';
 
 const About = () => {
     return (
-        <section className='flex px-4 md:px-8 justify-center items-center  flex-wrap w-full h-[600px] pt-8 bg-slate-200'>
+        <section className='flex px-4 md:px-8 justify-center items-center  flex-wrap w-full h-[600px] pt-8'>
             <div className='w-1/2'>
                 <div className='text-left '>
                     <h1 className='font-bold text-2xl underline'>About Me</h1>
