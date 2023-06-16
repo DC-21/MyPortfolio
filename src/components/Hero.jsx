@@ -5,8 +5,8 @@ import { Player } from '@lottiefiles/react-lottie-player';
 
 const Hero = () => {
   return (
-    <div className='flex px-4 md:px-8  flex-wrap w-full lg:h-[620px] h-fit pt-1 bg-slate-500'>
-      <div className='md:w-1/2 w-full pt-10 items-center'>
+    <div className='flex px-4 md:px-8  flex-wrap w-full lg:h-[620px] justify-center items-center h-fit pt-1 bg-slate-500'>
+      <div className='md:w-1/2 w-full items-center'>
         <div>
           <TypeAnimation
             sequence={[
