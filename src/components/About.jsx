@@ -3,14 +3,14 @@ import own from '../images/own.png';
 
 const About = () => {
     return (
-        <section className='flex px-4 md:px-8  flex-wrap w-full h-[600px] pt-8 bg-slate-200'>
+        <section className='flex px-4 md:px-8 justify-center items-center  flex-wrap w-full h-[600px] pt-8 bg-slate-200'>
             <div className='w-1/2'>
-                <div className='text-left mt-20'>
+                <div className='text-left '>
                     <h1 className='font-bold text-2xl underline'>About Me</h1>
                     <p className='mt-4'>I am a Junior Web Programmer experienced in React JavaScript, Tailwind CSS, and HTML, passionate about creating captivating web experiences. Let's innovate together!</p>
-                    <h1 className='text-xl mt-4'>My Tech Stack</h1>
+                    <h1 className='text-xl mt-4'>Tech Stack</h1>
                     <li className='list-none mt-2 gap-4'>
-                        <div className='flex gap-2'>
+                        <div className='flex gap-2 items-center'>
                             <svg
                                 viewBox="0 0 34 32"
                                 fill="currentColor"
@@ -28,7 +28,7 @@ const About = () => {
                             </svg>
                             <p>React</p>
                         </div>
-                        <div className='flex gap-2'>
+                        <div className='flex gap-2  items-center'>
                             <svg
                                 viewBox="0 0 32 32"
                                 fill="currentColor"
@@ -42,7 +42,7 @@ const About = () => {
                             </svg>
                             <p>Node js</p>
                         </div>
-                        <div className='flex gap-2' >
+                        <div className='flex gap-2 items-center'>
                             <svg
                                 viewBox="0 0 32 32"
                                 fill="currentColor"
@@ -56,7 +56,7 @@ const About = () => {
                             </svg>
                             <p> MySQL</p>
                         </div>
-                        <div className='flex gap-2' >
+                        <div className='flex gap-2 items-center' >
                             <svg
                                 viewBox="0 0 24 24"
                                 fill="currentColor"
