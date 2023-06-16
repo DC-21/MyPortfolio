@@ -20,7 +20,7 @@ const Hero = () => {
           />
           <div className=' text-center md:text-left'>
             <h1 className='pt-4 text-white font-medium'>Looking for Web Developer to Hire ?</h1>
-            <h1 className='pt-3 text-white font-medium'>You have come to the right place where your dreams are Redesigned and brought to Life for you.</h1>
+            <h1 className='pt-3 text-slate-300 font-medium'>You have come to the right place where your dreams are Redesigned and brought to Life for you.</h1>
             <li className='list-none flex justify-center md:justify-start w-full gap-6 mt-6 duration-500'>
               <a href=''>  <svg
                 viewBox="0 0 24 24"
@@ -62,7 +62,7 @@ const Hero = () => {
                 </svg>
               </a>
             </li>
-            <button className='bg-indigo-300 py-2 px-2 rounded mt-8 text-white font-medium hover:bg-indigo-400'>
+            <button className='bg-white py-2 px-2 rounded mt-8 text-black font-bold hover:bg-black hover:text-white transition-all'>
               Give me a shot
             </button>
           </div>
