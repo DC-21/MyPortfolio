@@ -43,7 +43,7 @@ const Hero = () => {
                 </svg>
               </a>
               {/*contact*/}
-              <a href='tel:0979054417'>
+              <a href='tel:+260979054417'>
                 <svg
                   viewBox="0 0 24 24"
                   fill="white"
@@ -67,7 +67,7 @@ const Hero = () => {
               </a>
             </li>
             <button className='bg-white py-2 px-2 rounded mt-8 text-black font-bold hover:bg-black hover:text-white transition-all'>
-              Give me a shot
+              <a href='https://www.fiverr.com/users/dcwrld/'> Give me a shot</a>
             </button>
           </div>
         </div>

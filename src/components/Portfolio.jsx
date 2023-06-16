@@ -13,7 +13,9 @@ const Portfolio = () => {
               <p className="">Unleashing the power of AI revolutionizes industries, propelling innovation, automation, and transformative advancements. By tapping into its potential, we unlock a world of possibilities, shaping the future with intelligent technologies and redefining the way we live and work.</p>
               <div className="flex mt-6 items-center pb-5 border-b-2 border-gray-100 mb-5"></div>
               <div className="">
-                <button className="ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Visit Ai</button>
+                <button className="ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">
+                  <a href='https://ai-chola.netlify.app/'>Visit Ai</a>
+                </button>
               </div>
             </div>
           </div>

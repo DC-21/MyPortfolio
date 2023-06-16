@@ -64,7 +64,9 @@ const Services = () => {
                         </div>
                     </div>
                 </div>
-                <button class="flex mx-auto mt-16 text-black bg-white border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Order Now</button>
+                <button class="flex mx-auto mt-16 text-black bg-white border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                    <a href='https://www.fiverr.com/users/dcwrld/'>Order Now</a>
+                </button>
             </div>
         </section>
     )
