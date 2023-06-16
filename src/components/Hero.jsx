@@ -21,7 +21,7 @@ const Hero = () => {
           />
           <div className=''>
             <h1 className='pt-4'>Looking for Web Developer to Hire ?</h1>
-            <h1 className='pt-3'>Give me a shot.</h1>
+            <h1 className='pt-3'>You have come to the right place where your dreams are Redesigned and brought to Life for you.</h1>
             <li className='list-none flex w-full gap-6 pt-4'>
               <a href=''>  <svg
                 viewBox="0 0 24 24"
@@ -54,7 +54,7 @@ const Hero = () => {
               </a>
             </li>
             <button>
-              Hire Me
+              Give me a shot
             </button>
           </div>
         </div>
