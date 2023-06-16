@@ -5,8 +5,8 @@ import { Player } from '@lottiefiles/react-lottie-player';
 
 const Hero = () => {
   return (
-    <div className='flex px-4 md:px-8  flex-wrap w-full h-[550px] pt-8 bg-slate-500'>
-      <div className='md:w-1/2 w-full pt-10'>
+    <div className='flex px-4 md:px-8  flex-wrap w-full lg:h-screen h-fit pt-8 bg-slate-500'>
+      <div className='md:w-1/2 w-full pt-10 items-center'>
         <div>
           <TypeAnimation
             sequence={[
@@ -14,14 +14,14 @@ const Hero = () => {
               'A Junior Web Developer', 2000,
               'A Web Penetration Tester', 2000
             ]}
-            className="text-2xl w-full font-bold text-left pt-0 text-white"
+            className="text-2xl md:text-left text-center w-full font-bold text-left pt-0 text-white"
             repeat={Infinity}
             wrapper="p"
           />
-          <div className=''>
+          <div className=' text-center md:text-left'>
             <h1 className='pt-4 text-white font-medium'>Looking for Web Developer to Hire ?</h1>
             <h1 className='pt-3 text-white font-medium'>You have come to the right place where your dreams are Redesigned and brought to Life for you.</h1>
-            <li className='list-none flex w-full gap-6 mt-6 duration-500'>
+            <li className='list-none flex justify-center md:justify-start w-full gap-6 mt-6 duration-500'>
               <a href=''>  <svg
                 viewBox="0 0 24 24"
                 fill="white"

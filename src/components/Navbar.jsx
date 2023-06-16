@@ -1,11 +1,13 @@
-import React, { useState } from 'react'
+import React, { useState} from 'react'
 import logo from '../images/logo.png'
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   const handleMenu = () => {
-    setOpen(!open)
+    setOpen((prevOpen)=>!prevOpen)
   }
+
+  
   return (
     <div className='flex w-full px-4 md:px-8 py-4 items-center justify-between transition-all bg-white'>
       <div className='flex gap-1 items-center'>
@@ -22,8 +24,8 @@ const Navbar = () => {
           <a href=''>About</a>
         </li>
       </ul>
-      <button class="button hover:fill-white md:flex hidden hover:text-white">
-        <svg class="svgIcon" viewBox="0 0 512 512" height="1em" xmlns="http://www.w3.org/2000/svg"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm50.7-186.9L162.4 380.6c-19.4 7.5-38.5-11.6-31-31l55.5-144.3c3.3-8.5 9.9-15.1 18.4-18.4l144.3-55.5c19.4-7.5 38.5 11.6 31 31L325.1 306.7c-3.2 8.5-9.9 15.1-18.4 18.4zM288 256a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z"></path></svg>
+      <button className="button hover:fill-white md:flex hidden hover:text-white">
+        <svg className="svgIcon" viewBox="0 0 512 512" height="1em" xmlns="http://www.w3.org/2000/svg"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm50.7-186.9L162.4 380.6c-19.4 7.5-38.5-11.6-31-31l55.5-144.3c3.3-8.5 9.9-15.1 18.4-18.4l144.3-55.5c19.4-7.5 38.5 11.6 31 31L325.1 306.7c-3.2 8.5-9.9 15.1-18.4 18.4zM288 256a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z"></path></svg>
         Hire Me
       </button>
       <div className='md:hidden block' onClick={handleMenu}>
