@@ -46,7 +46,7 @@
   position: relative;
   width: 350px;
   height: 350px;
-  color: #4d436d;
+  color: #110f16;
   background: #131313;
   overflow: hidden;
   border-radius: 20px;
@@ -56,7 +56,7 @@
   font-weight: bold;
   font-size: 24px;
   padding: 6px 12px;
-  color: #f8f8f8;
+  color: #6B7280;
 }
 
 .card_title {
