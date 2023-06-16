@@ -3,9 +3,9 @@ import own from '../images/own.png';
 
 const About = () => {
     return (
-        <section className='flex px-4 md:px-8 justify-center items-center  flex-wrap w-full h-[600px] pt-8'>
-            <div className='w-1/2'>
-                <div className='text-left '>
+        <section className='flex px-4 md:px-8 justify-center items-center flex-wrap w-full h-[600px] pt-8'>
+            <div className='flex w-1/2'>
+                <div className='flex flex-col w-full text-left '>
                     <h1 className='font-bold text-2xl underline'>About Me</h1>
                     <p className='mt-4 text-gray-500'>I am a Junior Web Programmer experienced in React JavaScript, Tailwind CSS, and HTML, passionate about creating captivating web experiences. Let's innovate together!</p>
                     <h1 className='text-xl mt-4'>Tech Stack</h1>
