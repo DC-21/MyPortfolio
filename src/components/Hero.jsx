@@ -5,7 +5,7 @@ import { Player } from '@lottiefiles/react-lottie-player';
 
 const Hero = () => {
   return (
-    <div className='flex px-4 md:px-8  flex-wrap w-full lg:h-screen h-fit pt-8 bg-slate-500'>
+    <div className='flex px-4 md:px-8  flex-wrap w-full lg:h-screen h-fit pt-1 bg-slate-500'>
       <div className='md:w-1/2 w-full pt-10 items-center'>
         <div>
           <TypeAnimation
@@ -14,7 +14,7 @@ const Hero = () => {
               'A Junior Web Developer', 2000,
               'A Web Penetration Tester', 2000
             ]}
-            className="text-2xl md:text-left text-center w-full font-bold text-left pt-0 text-white"
+            className="text-2xl md:text-left text-center w-full font-bold pt-0 text-white"
             repeat={Infinity}
             wrapper="p"
           />
