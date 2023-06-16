@@ -13,8 +13,8 @@ const Portfolio = () => {
                             </div>
                             <div class="card_content">
                                 <span class="card_title">Ai Web</span>
-                                <span class="card_subtitle">Thsi is a subtitle of this page. Let us see how it looks on the Web.</span>
-                                <p class="card_description">Lorem ipsum dolor, sit amet  expedita exercitationem recusandae aut dolor tempora aperiam itaque possimus at, cupiditate earum, quae repudiandae aspernatur? Labore minus soluta consequatur placeat.</p>
+                                <span class="card_subtitle">Unleashing the power of AI.</span>
+                                <p class="card_description">Unleashing the power of AI revolutionizes industries, propelling innovation, automation, and transformative advancements. By tapping into its potential, we unlock a world of possibilities, shaping the future with intelligent technologies and redefining the way we live and work.</p>
 
                             </div>
                         </article>
