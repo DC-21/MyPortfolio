@@ -62,7 +62,7 @@ const Navbar = () => {
           >
             <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z" />
           </svg>}
-        {open ? <ul id="menu" className='absolute right-0 shadow-2xl items-center z-50 top-[3.7em] w-1/4 py-2 gap-2 flex flex-col text-left h-[35em] rounded bg-white'>
+        {open ? <ul id="menu" className='absolute right-0 shadow-2xl items-center z-50 top-[3.7em] w-1/4 py-2 gap-2 flex flex-col text-left h-[25em] rounded bg-white'>
           <li onClick={handleHome}  className='flex w-full text-left'>
             <a className='w-full hover:bg-slate-300 pl-2 text-slate-700'>Home</a>
           </li>
