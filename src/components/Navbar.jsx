@@ -66,11 +66,11 @@ const Navbar = () => {
           <li onClick={handleHome}  className='flex w-full text-left'>
             <a className='w-full hover:bg-slate-300 pl-2 text-slate-700'>Home</a>
           </li>
-          <li onClick={handleProjects} className='flex w-full text-left'>
-            <a className='w-full hover:bg-slate-300 pl-2 text-slate-700'>Projects</a>
-          </li>
           <li onClick={handleAbout} className='flex w-full text-left'>
             <a className='w-full hover:bg-slate-300 pl-2 text-slate-700'>About</a>
+          </li>
+          <li onClick={handleProjects} className='flex w-full text-left'>
+            <a className='w-full hover:bg-slate-300 pl-2 text-slate-700'>Projects</a>
           </li>
         </ul> : null}
       </button>
