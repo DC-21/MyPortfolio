@@ -1,4 +1,3 @@
-import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
 import { Player } from '@lottiefiles/react-lottie-player';
 
