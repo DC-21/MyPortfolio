@@ -20,7 +20,7 @@ const Hero = () => {
           />
           <div className=' text-center md:text-left'>
             <h1 className='pt-4 text-white font-medium'>Looking for Web Developer to Hire ?</h1>
-            <h1 className='pt-3 text-slate-300 font-medium'>You have come to the right place where your dreams are Redesigned and brought to Life for you.</h1>
+            <h1 className='pt-3 text-slate-300 font-medium'>You have come to the right place where your dreams are re-designed and brought to Life for you.</h1>
             <li className='list-none flex justify-center md:justify-start w-full gap-6 mt-6 duration-500'>
               {/*gmail*/}
               <a href='https://mailto:cholahkuboko@gmail.com'>  
